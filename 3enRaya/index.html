@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tres en raya</title>
+</head>
+
+<h3 class = "contenedor"> 
+    <div id = "partidas">PARTIDAS TOTALES:</div>
+    <div id = "partidasx">PARTIDAS JUGADOR 'X':</div>
+    <div id = "partidaso">PARTIDAS JUGADOR 'O':</div>
+</h3>
+
+
+<body>
+    
+    <div class="contenedor_juego">
+        <div class="juego_titulo"><h2>TRES EN RAYA</h2></div>
+        <div id = "partidas_Jugadas"></div>
+        <p id = "juego_info" class="juego_info"></p>
+        <div class="juego_cuadricula">
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+        </div>
+        <div id ="juego_boton" class="juego_boton">Volver a jugar</div>
+        <a href="javascript:location.reload()">
+            <div id ="Reseteo_Completo" class="juego_boton">Resetear</div>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
