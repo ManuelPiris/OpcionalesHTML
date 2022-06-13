@@ -1,0 +1,21 @@
+canvas{
+    margin-bottom: 20px;
+    background-image: url('https://images.unsplash.com/photo-1559825481-12a05cc00344?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#buttons{
+    margin: auto;
+    width: 200px;
+    background-color:rgba(228, 228, 228, 0.5);
+    border-radius: 50%;
+}
+
+
+#informacion p{
+    text-align: center;
+}

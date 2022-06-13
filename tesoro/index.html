@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1 style="text-align: center;">El juego del tiburon</h1>
+    <div id="informacion">
+        <p>Con el joystick de abajo mueves al codeNotch. Utilizando los diferentes botones puedes navegar por el mapa lleno de tiburones. ¡Ten cuidado! Si te tocan o les tocas vas a perder!!.</p>
+        <p>El objetivo principal es llegar al cofre. </p>
+        <p>Corre, cada momento es valioso en la lucha contra los tiburones</p>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <canvas id="opponent_board" width="500" height="500"></canvas>
+    </div>
+    <div id="buttons" class="d-grid">
+        <div class="row">
+            <button id="up">Arriba</button>
+        </div>
+        <div class="row">
+            <button id="left">izquierda</button>
+            <button id="right">derecha</button>
+        </div>
+        <div class="row">
+            <button id="down">Abajo</button>
+        </div>
+    </div>
+    <script type="module" src="/index.js"></script>
+</body>
+</html>
